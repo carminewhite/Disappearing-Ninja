@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Disappearing Ninja</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script>
+            $(document).ready(function(){
+
+
+                $("img").click(function(){
+                    $(this).hide();
+                })
+
+                $("button").click(function(){
+                    $("img").show();
+                })
+
+
+
+
+
+            })
+
+            
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <h3>jQuery - Assignment 1</h3>
+            <div class="grid-row">
+                <img src="down1.png">
+                <img src="down1.png">
+                <img src="down1.png">
+                <img src="down1.png">
+            </div>
+            <div class="grid-row">
+                <img src="down1.png">
+                <img src="down1.png">
+                <img src="down1.png">
+                <img src="down1.png">
+            </div>
+            <button>Restore</button>
+
+
+        </div>
+        
+    </body>
+</html>
